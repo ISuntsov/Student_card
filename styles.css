@@ -1,3 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+body {
+  background-color: cornsilk;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h3 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: goldenrod;
+}
+
+a:active {
+  color: royalblue;
+}
+
+a:visited {
+  color: rgb(79, 67, 0);
+}
+
+.blocks {
+  max-width: 1000px;
+  min-width: 700px;
+  width: 90%;
+  margin: auto;
+}
+
 .bold {
   font-weight: 900;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  box-shadow: 5px 6px 4px 0px #aaddff8c;
+  margin-top: 16px;
+}
+
+.info {
+  display: flex;
+  margin: 0;
+}
+
+.info > div {
+  margin: 0 5px;
+}
+
+.info .self {
+  margin-left: 20px;
+}
+
+.cards {
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 5px 6px 4px 0px #0820308c;
+  background: #f7f2ba7e;
+}
+
+.cards:hover {
+  background: rgba(153, 205, 50, 0.152);
+}
+
+.list li {
+  margin-left: 25%;
+  margin-bottom: 3px;
+}
+
+.table {
+  width: 90%;
+  margin: auto;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(n + 2) {
+  color: grey;
+}
+
+.learn {
+  text-align: center;
+  width: 500px;
+}
+
+.learn td {
+  padding: 3px;
+  width: 100px;
+}
+
+.learn tr:nth-child(odd) {
+  background: rgba(75, 75, 64, 0.124);
+}
+
+.social {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+}
+
+.social div {
+  padding: 0 10px;
+}
+
+.social img {
+  width: 70px;
 }
